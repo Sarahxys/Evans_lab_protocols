@@ -4,6 +4,10 @@ to access the cluster
 ssh username@graham.computecanada.ca
 ssh username@cedar.computecanada.ca
 ```
+after you login, you need to go to your folder like this:
+```
+cd projects/def-ben/songxy/
+```
 for graham and cedar you need a bash file to start a queue using batch. 
 **Submitting and check on job status**
 ```bash
