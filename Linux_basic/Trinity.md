@@ -7,7 +7,7 @@ cat *_R1_paired.fastq.gz > XT_R1.fastq.gz
 cat *_R2_paired.fastq.gz > XT_R2.fastq.gz
 ```
 
-How to run trinity
+## How to run trinity
 ```bash
 time /home/xue/software//home/xue/software/trinityrnaseq-Trinity-v2.5.1/Trinity --seqType fq  --left /home/xue/tropicalis_gonad_transcriptome_Dec2018/trim/XT_R1.fastq.gz --right /home/xue/tropicalis_gonad_transcriptome_Dec2018/trim/XT_R2.fastq.gz --CPU 20 --inchworm_cpu 6 --full_cleanup --max_memory 200G --min_kmer_cov 2 --output /home/xue/tropicalis_gonad_transcriptome_Dec2018/tropicali_gonad_transcriptome_trinityOut
 ```
