@@ -30,18 +30,17 @@ Below is the explaination of what we included in the above command:
 
 How to see the full usage
 ```
-/home/xue/software/trinityrnaseq-Trinity-v2.4.0/Trinity --show_full_usage_info
+/usr/local/trinity/current/Trinity --show_full_usage_info|less -S
 ```
 
 # Practice
 #### Write your own command base on the one that I ran before
 The one that ran successfully on Xue's account
 ```
-Trinity --seqType fq  --left /home/xue/tropicalis_gonad_transcriptome_Dec2018/trim/XT_R1.fastq.gz --right /home/xue/tropicalis_gonad_transcriptome_Dec2018/trim/XT_R2.fastq.gz --CPU 20 --inchworm_cpu 6 --full_cleanup --max_memory 200G --min_kmer_cov 2 --output /home/xue/tropicalis_gonad_transcriptome_Dec2018/tropicali_gonad_transcriptome_trinityOut
+/usr/local/trinity/current/Trinity --seqType fq  --left /home/xue/tropicalis_gonad_transcriptome_Dec2018/trim/XT_R1.fastq.gz --right /home/xue/tropicalis_gonad_transcriptome_Dec2018/trim/XT_R2.fastq.gz --CPU 20 --inchworm_cpu 6 --full_cleanup --max_memory 200G --min_kmer_cov 2 --output /home/xue/tropicalis_gonad_transcriptome_Dec2018/tropicali_gonad_transcriptome_trinityOut
 ```
 The one to run on Martin's account. Please put how you think you should run it from your account
 ```
-
 
 ```
 
