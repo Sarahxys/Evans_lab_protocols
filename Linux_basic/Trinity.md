@@ -41,7 +41,7 @@ The one that ran successfully on Xue's account
 ```
 The one to run on Martin's account. Please put how you think you should run it from your account
 ```
-
+/usr/local/trinity/current/Trinity --seqType fq  --left 
 ```
 
 
