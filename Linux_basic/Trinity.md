@@ -34,17 +34,35 @@ How to see the full usage
 ```
 
 # Practice
+#### Write your own command base on the one that I ran before
+The one that ran successfully on Xue's account
+```
+Trinity --seqType fq  --left /home/xue/tropicalis_gonad_transcriptome_Dec2018/trim/XT_R1.fastq.gz --right /home/xue/tropicalis_gonad_transcriptome_Dec2018/trim/XT_R2.fastq.gz --CPU 20 --inchworm_cpu 6 --full_cleanup --max_memory 200G --min_kmer_cov 2 --output /home/xue/tropicalis_gonad_transcriptome_Dec2018/tropicali_gonad_transcriptome_trinityOut
+```
+The one to run on Martin's account. Please put how you think you should run it from your account
+```
+
+
+```
+
+
+
 #### command 1 to try - contain error
-below might contain error, try to run it and correct it
+below might contain error, try to run it and correct it. It should give you an error message when you run it
 ```
 #path to the folder
 /home/martin/tropicalis_gonad_transcriptome
 
-#command to run for trinity
-time /home/xue/software//home/xue/software/trinityrnaseq-Trinity-v2.5.1/Trinity --seqType fq  --left /home/xue/tropicalis_gonad_transcriptome_Dec2018/trim/XT_R1.fastq.gz --right /home/xue/tropicalis_gonad_transcriptome_Dec2018/trim/XT_R2.fastq.gz --CPU 20 --inchworm_cpu 6 --full_cleanup --max_memory 200G --min_kmer_cov 2 --output /home/xue/tropicalis_gonad_transcriptome_Dec2018/tropicali_gonad_transcriptome_trinityOut
+#command to run for trinity 
+
 ```
 below is the corrected command:
 ```
 
 ```
 #### command 2 to try - contain error
+below command contains error, if you try to run it, it will probably run but there's missing information. Try to identify the error and correct it before you run it.  
+```
+
+```
+
