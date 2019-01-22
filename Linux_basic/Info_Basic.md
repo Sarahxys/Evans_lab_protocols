@@ -20,6 +20,15 @@ If you want to remove a file type `rm -f `\<filename\>; to remove a directory `r
 
 If you want to clean the screen, do `clear`
 
+# Top
+If you want to check the status of the job, do `top`.
+
+To get off the top, do `q`.
+
+To see the full command running on top, do `top` then `c`.
+
+If you just want to look at your top, do `top -u martin`.
+
 # Installing trinity
 To download the trinity package we typed `Tr`.  This link would have to be updated when an new version becomes available.
 
