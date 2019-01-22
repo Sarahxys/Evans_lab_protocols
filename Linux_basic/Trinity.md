@@ -41,7 +41,8 @@ The one that ran successfully on Xue's account
 ```
 The one to run on Martin's account. Please put how you think you should run it from your account
 ```
-/usr/local/trinity/current/Trinity --seqType fq  --left 
+/usr/local/trinity/current/Trinity --seqType fq  --left /home/martin/tropicalis_gonad_transcriptome/trim/XT_R1.fastq.gz --right /home/martin/tropicalis_gonad_transcriptome/trim/XT_R2.fastq.gz --CPU 20 --inchworm_cpu 6 --full_cleanup --max_memory 200G --min_kmer_cov 2 --output
+
 ```
 
 
